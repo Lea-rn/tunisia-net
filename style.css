@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    border: solid 1px ; 
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 20px black;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #2470bc;
+}
+main {
+    margin: 200px 0px;
+    width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+pre {
+    cursor: pointer;
+}
+
+pre:hover{
+    color: rgb(212, 212, 49);
+}
+
+pre span {
+    color: rgb(220, 75, 75);
+}
+
+.img-container{
+    margin-right: 10px;
+}
+
